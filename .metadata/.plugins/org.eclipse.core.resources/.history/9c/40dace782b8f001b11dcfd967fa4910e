@@ -1,0 +1,12 @@
+package day37_overriding;
+
+public class GeciciIsci {
+
+	public String calistigiBolum ="Yemekhane";
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

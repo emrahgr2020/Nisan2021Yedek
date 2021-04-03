@@ -1,0 +1,16 @@
+package while_sorulari;
+
+import java.util.Scanner;
+
+public class Soru08 {
+
+	public static void main(String[] args) {
+		// STRING OLAN PIN kodunuzu kontrol eden bir kod yazınız
+
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Lutfen String tipinde  pin kodunuzu giriniz");
+		String pinCode = scan.next();
+	}
+
+}

@@ -1,0 +1,16 @@
+package day40_exceptions;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class Exceptions02 {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		FileInputStream fis = new FileInputStream("C:\\Users\\lenovo\\eclipse-workspace\\winter2021turkish\\src\\day39_exceptions\\File");
+		//try-catch blogu exception ile handel etmekte kullanilir
+		//throw keyword u ise sadece declaration dir , dolayisi ile 
+		//throw kullanilan bir method da exception olusursakod BLOKE OLUR
+	}
+
+}

@@ -1,0 +1,29 @@
+package while_sorulari;
+
+import java.util.Scanner;
+
+public class Soru05 {
+
+	public static void main(String[] args) {
+		// GİRİLEN SAYININ BASAMAKLARINDAKİ RAKAMLARIN TOPLAMINI BULUNUZ.
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Lutfen bir sayi giriniz");
+		int sayi = scan.nextInt();
+
+		int add=0;
+		int kalan=0;
+		do {
+			kalan=sayi%10;
+	
+			add+=kalan;
+			System.out.println(add);
+		}while(kalan!=0);
+		
+		System.out.println(add);
+		
+		
+		
+	}
+
+}

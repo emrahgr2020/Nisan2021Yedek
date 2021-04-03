@@ -1,0 +1,18 @@
+package while_sorulari;
+
+import java.util.Scanner;
+
+public class Soru10 {
+
+	public static void main(String[] args) {
+		// Kullanıcıdan 5 sayı isteyiniz, 
+		//bu sayılardan en büyüğünü bularak yazdırınız.
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Lutfen 5 tam sayi giriniz");
+		System.out.print("1.Sayi : ");
+		int sayi1 = scan.nextInt();
+
+	}
+
+}

@@ -1,0 +1,35 @@
+package day36_inharitance;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class UstaBasi extends Isci {
+
+	public String bolum ="takimhane";
+	public int sorOldIscisay=20;
+	
+	public static void main(String[] args) {
+		UstaBasi ub1= new UstaBasi();
+		//Objeyi torun class inda  olusturunca 3 classa da ulasabiliriz
+		
+		System.out.println(ub1.bolum);//takimhane
+		System.out.println(ub1.sorOldIscisay);//20
+		System.out.println(ub1.saatUcreti);//10
+		System.out.println(ub1.isim);//Mehmet
+		
+		Isci ub2= new UstaBasi();
+		List<String> list = new ArrayList<>();
+		//Extends ile birbirine bagli class larda IS-A relation olan
+		//data turleri istege bagli olarak kullanilabilir
+		//Daha genis Data turu Yazmanin avantaji:
+		//Kapsama daha genis olmasi
+		//Daha genis Data turu Yazmanin dezavantaaji:
+		//
+		
+		System.out.println(ub2.departman);//Isci class
+		System.out.println(ub2.izindeMi);//Personel class
+		
+		
+	}
+
+}

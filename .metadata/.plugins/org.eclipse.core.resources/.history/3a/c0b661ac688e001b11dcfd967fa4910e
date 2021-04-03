@@ -1,0 +1,18 @@
+package day36_inharitance;
+
+public class UstaBasi extends Isci {
+
+	public String bolum ="takimhane";
+	public int sorOldIscisay=20;
+	
+	public static void main(String[] args) {
+		UstaBasi ub1= new UstaBasi();
+		//Objeyi torun class inda  olusturunca 3 classa da ulasabiliriz
+		
+		System.out.println(ub1.bolum);
+		System.out.println(ub1.sorOldIscisay);
+		System.out.println(ub1.saatUcreti);
+		System.out.println(ub1.isim);
+	}
+
+}

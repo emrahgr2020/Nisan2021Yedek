@@ -1,0 +1,23 @@
+package day35_inheritance;
+
+public class Memur extends Personel {
+	public int maas;
+
+	public Memur() {
+		
+		System.out.println("Child class parametresiz counstructor calisti");
+	}
+
+	
+	public Memur(int maas) {
+		super();
+		
+	}
+	public static void main(String[] args) {
+		Memur obj1 = new Memur();
+
+	}
+
+	
+
+}

@@ -1,0 +1,31 @@
+package while_sorulari;
+
+import java.util.Scanner;
+
+public class Soru03 {
+
+	public static void main(String[] args) {
+		 /*
+//        Kullanıcı x  girilene kadar ekrana "Program çalışıyor" yazan
+//        ve x girildiğinde ise "Program bitti" yazan programı yazınız.
+//        */
+
+		Scanner scan=new Scanner (System.in);
+			System.out.println("Lutfen bir karakter giriniz");
+			char karakter=scan.next().toLowerCase().charAt(0);
+			
+		
+		while(karakter!='x') {
+			
+		System.out.println("Lutfen bir karakter giriniz");
+		
+		System.out.println("Program calisiyor");	
+		karakter='a';
+		
+		}
+		System.out.println("Program bitti");
+		
+		
+	}
+
+}

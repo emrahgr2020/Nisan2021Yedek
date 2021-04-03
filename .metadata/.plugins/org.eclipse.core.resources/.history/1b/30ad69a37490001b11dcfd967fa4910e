@@ -1,0 +1,28 @@
+package for_sorulari;
+
+public class Soru5 {
+
+	public static void main(String[] args) {
+		 /*  Problem Tanımı
+        Girilen bir sayı kadar satır ve sütünu olan ve
+        sağ kenara dayalı üçgeni basan kodu yazınız.
+        Ekran Çıktısı
+        Bir sayi giriniz: 5
+            *
+           **
+          ***
+         ****
+        *****
+        */
+            /*  *
+                * *
+                * * *
+                * * * *
+                * * * * *
+                şeklini yazdırınız
+                */
+		
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package day37_overriding;
+
+public class Formen extends Isci {
+
+	public String sorumluOlduguBolum = "bakim";
+	public static void main(String[] args) {
+		// Inheritance da data turu olarak class ismi kullanimi
+		
+		Formen fr1 = new Formen();
+		//fr1 objesini kullanarak hangi class larin variable leri gorebilirim
+		
+		fr1.sorumluOlduguBolum="Marangozhane";//atama yapildi yeni deger bu
+		fr1.maas=10000;// atama yapildi yeni deger bu
+		System.out.println(fr1.isim+" "+fr1.sorumluOlduguBolum+" "+ fr1.maas);
+		//Emre Marangozhane 10000
+		
+		Isci fr2 = new Formen();
+		//data turu olarak Isci secilidgi icin
+		fr2.bolum="Kaynak Atolyesi";
+		fr2.isim="Yakup";
+		System.out.println(fr2.isim+" "+ fr2.bolum+" "+fr2.maas);
+		
+		
+	}
+
+}

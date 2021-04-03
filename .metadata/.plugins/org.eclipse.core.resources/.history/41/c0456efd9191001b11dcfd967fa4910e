@@ -1,0 +1,19 @@
+package day39_exceptions;
+
+public class Exception07 {
+
+	public static void main(String[] args) {
+		
+		
+		int sayi = 10;
+		//String str = sayi;//CTE
+
+		
+		String str="123456";
+		System.out.println(str+10);//12345610
+		
+		int strSayi=Integer.parseInt(str);
+		System.out.println(strSayi+10);
+	}
+
+}
